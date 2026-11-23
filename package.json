@@ -1,0 +1,30 @@
+{
+  "name": "code-video-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Code-to-Video Kit: make MP4 videos from React code with Remotion + Claude Code",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render",
+    "still": "remotion still",
+    "lint": "tsc --noEmit",
+    "setup": "bash scripts/setup.sh"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.528",
+    "@remotion/noise": "4.0.528",
+    "@remotion/paths": "4.0.528",
+    "@remotion/tailwind-v4": "4.0.528",
+    "@remotion/media-utils": "4.0.528",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.528",
+    "tailwindcss": "4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "typescript": "5.9.3"
+  },
+  "sideEffects": ["*.css"]
+}
